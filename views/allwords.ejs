@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word of the Day</title>
+</head>
+<body>
+  <h1>All Words</h1>
+  <ul>
+    <% words.forEach(word => { %>
+      <li><strong><%= word.word %></strong> (<%= word.partOfSpeech %>): <%= word.definition %></li>
+    <% }) %>
+  </ul>
+</body>
+</html>
