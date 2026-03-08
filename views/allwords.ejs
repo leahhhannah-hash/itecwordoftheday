@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Words</title>
+</head>
+<body>
+    <h1>All Words of the Day</h1>
+    <% words.forEach(word => { %>
+        <div>
+            <h2><%= word.word %></h2>
+            <p><em><%= word.partOfSpeech %></em></p>
+            <p><%= word.definition %></p>
+        </div>
+    <% }) %>
+</body>
+</html></content>
+<parameter name="filePath">/Users/leahmartin/Code/ITEC305/word of the day /views/allwords.ejs
