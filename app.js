@@ -5,8 +5,8 @@ app.set('view engine', 'ejs');
 
 const words = [
   { word: "apple", partOfSpeech: "noun", definition: "a fruit" },
-  { word: "run", partOfSpeech: "verb", definition: "to move quickly" },
-  { word: "happy", partOfSpeech: "adjective", definition: "feeling pleasure" }
+  { word: "brave", partOfSpeech: "adjective", definition: "showing courage" },
+  { word: "create", partOfSpeech: "verb", definition: "to make something new" }
 ];
 
 app.get('/', (req, res) => {
